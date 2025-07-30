@@ -1,0 +1,25 @@
+Aufgabe 4.1:
+d) D:\Programmieren-2\Gruppe_Le1B\blatt1\main.cpp: In function 'int main()':
+
+D:\Programmieren-2\Gruppe_Le1B\blatt1\main.cpp:9:30: error: 'team' was not declared in this scope; did you mean 'tm'?
+    9 |     cout << "Wir sind : " << team [0] << "..." << team [ teamSize ] << endl ;
+      |                              ^~~~
+      |                              tm
+
+D:\Programmieren-2\Gruppe_Le1B\blatt1\main.cpp:9:58: error: 'teamSize' was not declared in this scope
+    9 |     cout << "Wir sind : " << team [0] << "..." << team [ teamSize ] << endl ;
+      |                                                          ^~~~~~~~
+mingw32-make[3]: *** [CMakeFiles\hello.dir\build.make:75: CMakeFiles/hello.dir/main.cpp.obj] Error 1
+mingw32-make[2]: *** [CMakeFiles\Makefile2:82: CMakeFiles/hello.dir/all] Error 2
+mingw32-make[1]: *** [CMakeFiles\Makefile2:89: CMakeFiles/hello.dir/rule] Error 2
+mingw32-make: *** [Makefile:123: hello] Error 2
+
+a) in der Datei main.cpp
+b) in Zeile 9
+c) cout << "Wir sind : " << team [0] << "..." << team [ teamSize ] << endl ;
+
+Aufgabe 4.2:
+Fehler 1: der Vektor team ist noch nicht deklariert bevor er benutzt ist.
+Fehler 2: die Variable teamSize ist noch nicht deklariert bevor er benutzt ist.
+
+

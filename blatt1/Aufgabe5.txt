@@ -1,0 +1,6 @@
+1) Breakpoint in Zeile 13
+cout << "Wir sind : " << team [0] << "..." << team [ teamSize ] << endl ;
+
+2) temsize = 4 aber das letzte Index von Vektor Team ist 3.
+
+3) cout << "Wir sind : " << team [0] << "..." << team [ teamSize - 1] << endl ;
