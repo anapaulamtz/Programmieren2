@@ -1,4 +1,4 @@
-# Programmieren 2 SoSe 2023
+# Programmieren2 SoSe23
 
 - {Ana Paula Martínez Salero}, {y-0111392}
 
